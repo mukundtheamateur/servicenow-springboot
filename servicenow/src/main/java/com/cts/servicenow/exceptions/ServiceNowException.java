@@ -6,7 +6,7 @@ public class ServiceNowException extends RuntimeException {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	public ServiceNowException(String message, Throwable cause) {
-        super(message, cause);
+	public ServiceNowException(String message) {
+        super(message);
     }
 }
